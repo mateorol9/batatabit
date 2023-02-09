@@ -374,7 +374,7 @@ span.trending.up {
 .main-plans-container {
     width: 100%;
     min-width: 320px;
-    padding: 70px 0;
+    padding: 70px 4px;
     text-align: center;
 }
 
