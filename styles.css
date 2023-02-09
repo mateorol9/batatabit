@@ -504,3 +504,17 @@ footer .left ul {
     width: 64px;
     height: 50px;
 }
+/*Animación*/
+.rotate {
+    animation: rotation 10s infinite linear;
+    transform-origin: center center;
+  }
+  
+  @keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
