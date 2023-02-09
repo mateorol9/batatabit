@@ -365,7 +365,7 @@ span.trending.up {
     overflow-y: hidden;
     height: 316px;
     width: 100%;
-    max-width: 790px;
+    max-width: 780px;
     margin: 0 auto; 
     padding: 0 28px 0 24px;
     
@@ -390,7 +390,6 @@ span.trending.up {
     background-color: var(--new-black);
     border-radius: 16px;
     box-shadow: 0px 1px 5px 0px #ff9800;
-    transform: translateX(-8px);
 }
 .plan-tag  {
     display: flex;
@@ -519,3 +518,8 @@ footer .left ul {
       transform: rotate(360deg);
     }
   }
+@media (min-width: 780px) {
+    .plans-containers--card {
+        transform: translateX(-12px);
+ }
+}
