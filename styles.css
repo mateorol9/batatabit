@@ -90,12 +90,10 @@ header img {
     text-decoration: none;
     color: var(--black);
 }
-.header--button span {
+.header--button svg {
     display: inline-block;
-    width: 13px;
-    height: 8px;
-    margin-left: 10px;
-    background-image: url(./assets/icons/arrow-down-icon.svg);
+    width: 10px;
+    margin-left: 5px;
 }
 main {
     width: 100%;
@@ -103,6 +101,7 @@ main {
     height: auto;
     background-color: var(--off-white);
 }
+/* exchange*/
 .main-exchange-container {
     width: 100%;
     height: auto;
@@ -115,7 +114,7 @@ main {
     height: 200px;
     margin: 0 auto;
     margin-bottom: 50px;
-    background-image: url("https://i.postimg.cc/NjTyW7yM/Bitcoin-img-2.png");
+    background-image: url(./assets/imgs/Bitcoin-img-2.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -214,16 +213,11 @@ main {
     font-weight: 300;
     color: var(--off-grey);
 }
-span.trending {
+svg.trending {
     width: 18px;
     height: 16px;
 }
-span.trending.down {
-    background-image: url(/assets/icons/trending-down.svg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-}
+
 span.trending.up {
     background-image: url(/assets/icons/trending-up.svg);
     background-position: center;
@@ -263,7 +257,6 @@ span.trending.up {
    left: calc(50% - 20px);
    width: 40px;
    height: 24px;
-   background-image: url(./assets/icons/batata-icon.svg);
 }
 
 .product-detail__title {
@@ -315,18 +308,6 @@ span.trending.up {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-}
-.product-detail__card .clock {
-    background-image: url(./assets/icons/clock-icon.svg);   
-}
-.product-detail__card .eye {
-    background-image: url(./assets/icons/eye-icon.svg);
-}
-.product-detail__card .money {
-    background-image: url(./assets/icons/dollar-icon.svg);
-}
-.product-detail__card .check {
-    background-image: url(./assets/icons/check-circle.svg);
 }
 .product__card-title {
     margin-bottom: 12px;
