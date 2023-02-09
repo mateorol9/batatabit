@@ -366,8 +366,8 @@ span.trending.up {
     height: 316px;
     width: 100%;
     max-width: 790px;
-    margin: 0 4px; 
-    padding: 0 20px;
+    margin: 0 auto; 
+    padding: 0 24px;
     
 }
 
@@ -518,8 +518,3 @@ footer .left ul {
       transform: rotate(360deg);
     }
   }
-/*Querys*/
-    @media (min-width: 790px) {
-        .plans-container--slider {
-            margin: 0 auto; 
-         }
