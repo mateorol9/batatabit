@@ -357,7 +357,7 @@ span.trending.up {
 /*Section plans*/
 .plans-container--slider {
     display: flex;
-    gap: 10px;
+    gap: 16px;
     overflow-x: auto;
     overscroll-behavior-x: contain;
     scroll-snap-type: x proximity;
