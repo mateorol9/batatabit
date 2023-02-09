@@ -390,6 +390,7 @@ span.trending.up {
     background-color: var(--new-black);
     border-radius: 16px;
     box-shadow: 0px 1px 5px 0px #ff9800;
+    transform: translateX(-4px);
 }
 .plan-tag  {
     display: flex;
