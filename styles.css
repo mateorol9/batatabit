@@ -367,14 +367,14 @@ span.trending.up {
     width: 100%;
     max-width: 790px;
     margin: 0 auto; 
-    padding: 0 24px;
+    padding: 0 28px 0 24px;
     
 }
 
 .main-plans-container {
     width: 100%;
     min-width: 320px;
-    padding: 70px 4px;
+    padding: 70px 0;
     text-align: center;
 }
 
