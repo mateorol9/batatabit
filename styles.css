@@ -19,6 +19,7 @@
     --off-white: #faf8f7;
     --just-white: #fff;
     --new-bg: #1a1b26;
+    --new-black: #202124;
     /* Fonts*/
     --lg: 2.4rem;
     --md: 1.8rem;
@@ -235,10 +236,10 @@ span.trending.up {
     border-radius: 8px;
 }
 .table-date.blue {
-    background: var(--secundary-blue);
+    background: var(--soft-blue);
 }
 .table-date.orange {
-    background: var(--bitcoin-orange);
+    background: var(--soft-orange);
 }
 
 /* Product Section*/
