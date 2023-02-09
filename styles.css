@@ -365,9 +365,9 @@ span.trending.up {
     overflow-y: hidden;
     height: 316px;
     width: 100%;
-    max-width: 770px;
+    max-width: 790px;
     margin: 0 auto; 
-    padding: 0 20px;
+    padding: 0 26px 0 20px;
     
 }
 
