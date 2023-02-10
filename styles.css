@@ -483,7 +483,7 @@ section.section__form {
     min-width: 320px;
     height: auto;
     text-align: center;
-    padding: 50px 20px;
+    padding: 10px 20px 50px;
     background-color: var(--new-bg);
 
 }
@@ -492,7 +492,7 @@ section.section__form {
     width: 90%;
     max-width: 400px;
     min-width: calc(0.7 * 320px);
-    padding: 2.5rem 3rem;
+    padding: 2rem 3rem;
 }
 .form__input {
     width: 100%;
@@ -524,7 +524,7 @@ fieldset {
 .form__label {
     position: absolute;
     left: 24px;
-    top: calc(50% - 8px);
+    top: calc(50% - 9px);
     font-family: 'Inter';
     font-weight: 400;
     font-size: var(--sm);
