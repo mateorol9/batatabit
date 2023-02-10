@@ -574,7 +574,7 @@ footer .left ul {
 }
 /*Animación*/
 .rotate {
-    animation: rotation 10s infinite linear;
+    animation: rotation 25s infinite linear;
     transform-origin: center center;
   }
   
