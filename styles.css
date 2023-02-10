@@ -111,6 +111,15 @@ main {
     padding-bottom: 30px;
     text-align: center;
 }
+.container-animation {
+    position: relative;
+}
+.container-animation svg {
+    position: absolute;
+    width: 73px;
+    top: 0;
+    transform: translate(-36px, 64px) rotate(348deg);
+}
 .main-exchange-container .backgroundImg {
     width: 200px;
     height: 200px;
