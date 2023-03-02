@@ -45,7 +45,7 @@ header {
     text-align: center;
     background: var(--bg-gradient);
 }
-header svg {
+header > svg {
     width: 200px;
     height: auto;
     margin-top: 60px;
