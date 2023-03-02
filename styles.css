@@ -46,8 +46,8 @@ header {
     background: var(--bg-gradient);
 }
 header svg {
-    width: 150px;
-    height: 24px;
+    width: 200px;
+    height: auto;
     margin-top: 60px;
     align-self: center;
 }
