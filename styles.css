@@ -340,16 +340,6 @@ span.trending.up {
     height: 60vh;
     text-align: center;
 }
-.bitcoin-img-container h2 {
-    position: relative;
-    z-index: 10;
-    padding-top: 60px;
-    font-size: var(--lg);
-    font-weight: bold;
-    line-height: 2.6rem;
-    color: var(--just-white);
-
-}
 .bitcoin-img-container picture {
     display: flex;
     position: absolute;
