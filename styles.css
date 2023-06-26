@@ -61,10 +61,10 @@ header > svg {
     align-self: center;
 }
 .header--title-container h1 {
-    font-size: var(--lg);
+    font-size: clamp(var(--lg), 4vw, 4rem); /*Escala el tamaño del h1 de acuerdo al tamaño del width*/
     font-weight: bold;
-    line-height: 2.6rem;
-    color: var(--just-white);   
+    line-height: clamp(26px, 4vw, 45px); /*Escala el tamaño de acuerdo al crecimiento de la letra*/
+    color: var(--just-white);
 }
 .header--title-container p {
     margin-top: 25px;
